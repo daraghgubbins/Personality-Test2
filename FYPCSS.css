@@ -1,0 +1,49 @@
+body {
+		text-align: center;
+}
+.button{
+		margin-top:20px;
+}
+.infobuttons button{
+		margin-top:40px;
+		margin-left:-160px;
+}
+.infobuttons1 button{
+		margin-top:-55px;
+		margin-right:-180px;
+}
+.text-primary mark { 
+    background-color: #FFFF66;
+	color:#3399FF;
+}
+.center-block p{
+    color:#707070;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 15%;
+      margin: auto;
+  }
+.fa-thumbs-down {
+  color: #e55451;
+  padding:5px;
+}
+.fa-thumbs-up {
+  color: #85bb65;
+    padding:5px;
+}
+
+div .row{
+    border: 1px solid #cccccc;
+	width:99%;
+	margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5px;
+    background: #eeeeee;
+    border-radius: 10px;
+}
+.row .btn{
+	padding:1px;
+    background: #eeeeee;
+}
