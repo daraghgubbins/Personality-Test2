@@ -1,20 +1,12 @@
-//fix questions
-//change extensive test questions div section colors to grey scale
-//switch statements to check if result string is equal to which personality
-//keep radio button selection for when back button is clicked
-//create 16 personality pages
 make an app logo
 bookmark for radio buttons
 pop up screen when entering the test pages, giving the instructions
 left and right movement on the 16 personalities page
 test results give the summary and pic then a link to home and full description
-//different progress bar on the extensive test
 about section - myres briggs T.I copyright
 possibly new index - go to app of learn about app (buttons)
 check if internet is required to load the bootstrap
-//no back buttons on test - function to check if value is 0 and display message
 change buttons on extensive test so its highlighted when clicked
-make results page that both quick and extensive test can use
 extensive test delete the id="section 1" from the pages
 change the name graph current personality, current is no the right word
 
