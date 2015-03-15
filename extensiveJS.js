@@ -133,25 +133,25 @@ function page2(){
 		'</div>'+
 	'</div> '+
 		'<div class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You often contemplate lifes complexities</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
 							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -159,7 +159,34 @@ function page2(){
 			'</div>'+
 		'</div>'+
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You focus on possibilities rather than realities</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>I like to deal with facts rather than ideas</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -186,7 +213,61 @@ function page2(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>I like trying new ways to do things</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>The "unknown" intrigues you</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>You prefer following a trusted method</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -213,7 +294,7 @@ function page2(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You dislike ambiguity in information</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -240,13 +321,13 @@ function page2(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You enjoy experimenting to see what happens</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
+							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
+							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
+							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -254,92 +335,11 @@ function page2(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
 							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
 							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -368,25 +368,25 @@ function page3(){
 		'</div>'+
 	'</div> '+
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You are willing to engage with your emotions</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
 							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -394,7 +394,7 @@ function page3(){
 			'</div>'+
 		'</div>'+
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		"	<div><strong>It's difficult to get you excited</strong></div>"+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -421,7 +421,7 @@ function page3(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>Thinking lociacally is what matters most</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -448,7 +448,34 @@ function page3(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You tend to sympathise with others</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>You trust reasoning rather than feelings</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -475,7 +502,34 @@ function page3(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You are easily affected by strong emotions</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>Emotions rarely influence your decisions</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -502,13 +556,13 @@ function page3(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You easily understand others concerns</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
+							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
+							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
+							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -516,65 +570,11 @@ function page3(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
 							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
 							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
+							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -603,7 +603,7 @@ function page4(){
 		'</div>'+
 	'</div> '+
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You are almost never late for appointments</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -629,7 +629,61 @@ function page4(){
 			'</div>'+
 		'</div>'+
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You prefer improvisation rather than planning</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>The best decison is one that can be changed</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>You usually plan your actions in advance</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -656,7 +710,7 @@ function page4(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You take pleasure in putting things in order</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -683,7 +737,34 @@ function page4(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You often do jobs in a hurry</strong></div>'+
+		'	<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(3)">'+
+							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
+							'<button class="btn" onclick="Store1(2)">'+
+							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(1)">'+
+							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
+							'</div>'+
+			'</div> '+
+			
+			'<div class="col-sm-6 col-xs-6">'+
+							'<button class="btn" onclick="Store1(-1)">'+
+							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
+							'<button class="btn" onclick="Store1(-2)">'+
+							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
+							'<button class="btn" onclick="Store1(-3)">'+
+							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
+							'<div>'+
+							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
+							'</div>'+
+			'</div>'+
+		'</div>'+
+
+		'<div id="section1" class="row">'+
+		'	<div><strong>You like working towards a deadline</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
@@ -710,13 +791,13 @@ function page4(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
+		'	<div><strong>You often rush jobs</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
+							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
+							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
+							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -724,92 +805,11 @@ function page4(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
 							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
 							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
-							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
-							'</div>'+
-			'</div>'+
-		'</div>'+
-
-		'<div id="section1" class="row">'+
-		'	<div><strong>section one</strong></div>'+
-		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
-							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
-							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1)">'+
-							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
-							'<div>'+
-							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
-							'</div>'+
-			'</div> '+
-			
-			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1)">'+
-							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
-							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
