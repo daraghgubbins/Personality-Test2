@@ -6,12 +6,9 @@ body {
 }
 .infobuttons button{
 		margin-top:40px;
-		margin-left:-160px;
+		margin-top:20px;
 }
-.infobuttons1 button{
-		margin-top:-55px;
-		margin-right:-180px;
-}
+
 .text-primary mark { 
     background-color: #FFFF66;
 	color:#3399FF;
@@ -48,30 +45,16 @@ div .row{
     background: #eeeeee;
 }
 
-div#overlay {
-						position:absolute;
-                     top:50%;
-                     left:50%;
-                     background-color:#000;
-                     z-index:1002;
-                     overflow:auto;
-                     width:300px;
-                     height:300px;
-                     margin-left:auto;
-                     margin-top:auto;
-	
+#overlay{
+position: relative;
+background: grey;
+width: 80%;
+height: 80%;
 }
-
-div#specialBox {
-	position: absolute;
-	z-index: 1002;
-	background: #A0A0A0
-	color: #000;
-	top:auto;
-    left:auto;
-	overflow:auto;
-                     width:300px;
-                     height:300px;
-                     margin-left:auto;
-                     margin-top:auto;
+#specialBox{
+display: block;
+border: 1px solid gray;
+text-align: center;
+padding: 6px;
+margin: 0 auto;
 }

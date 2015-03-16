@@ -10,16 +10,38 @@
   <script src="extensiveJS.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.2/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
 
+    <script>
+  $(function() {
+    $( "#dialog" ).dialog({
+      autoOpen: false,
+      show: {
+        effect: "blind",
+        duration: 200
+      },
+      hide: {
+        effect: "explode",
+        duration: 700
+      }
+    });
+ 
+    $(window).load(function() {
+      $( "#dialog" ).dialog( "open" );
+    });
+  });
+  </script>
+  
 </head>
-<html>
-  <div id="overlay"></div>
-<div id="specialBox">
-  <p>Special box content ...</p> 
-  <button onmousedown="toggleOverlay()">Close Overlay</button>
+
+<body id="section">
+<div id="dialog">
+  <p>Agree or disagree with the statements below using the <span style="color:#85bb65">green</span> and <span style="color:#e55451">red</span>
+  thumbs.<br><br>To receive an accurate preference please do no leave any questions blank<br><br><u>Note:</u> Thumbs are arranged from <b>Big</b> (strongly Agree/Disagree) 
+  to <b>Small</b> (partially Agree/Disagree)</p>
 </div>
-</html>
-<body id="section" onload="toggleOverlay()">
 
 <div>
   <h1 class="text-primary" style="font-family:verdana"><b>Extensive Test</b></h1>
