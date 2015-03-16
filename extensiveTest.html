@@ -12,7 +12,15 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
 </head>
-<body id="section">
+<html>
+  <div id="overlay"></div>
+<div id="specialBox">
+  <p>Special box content ...</p> 
+  <button onmousedown="toggleOverlay()">Close Overlay</button>
+</div>
+</html>
+<body id="section" onload="toggleOverlay()">
+
 <div>
   <h1 class="text-primary" style="font-family:verdana"><b>Extensive Test</b></h1>
   <h4 class="text-warning" style="font-family:verdana"><b>Section One</b></h4>
@@ -243,7 +251,6 @@
 		
 		
   </div>
-
 	  <button type="button" class="btn btn-info btn-md" onclick="confirmHome()" style="margin-bottom:15px;">Home</button>
 	  <a href="#"> <button id="btn" type="button" class="btn btn-info btn-md"  onclick="addScore();EorI();page2()" disabled style="margin-left:70px; margin-bottom:15px;">Next</button></a>
 
