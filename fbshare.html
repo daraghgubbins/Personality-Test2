@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+  <link rel="stylesheet" type="text/css" href="FYPCSS.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
+</head>
+<body onload="fbshare()">
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/all.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+
+// async init once loading is done
+window.fbAsyncInit = function() {
+  FB.init({appId: 398517573663675, status: false});
+};
+</script>
+
+<script>
+function fbshare() {
+  FB.ui({
+    method: 'feed',
+    link: 'http://danu6.it.nuigalway.ie/daraghG06/index.html',
+    picture: 'http://danu6.it.nuigalway.ie/daraghG06/logo.jpg',
+    name: 'Pesonality!',
+    caption: 'Test',
+    description: 'Must read daily!'
+  });
+}
+</script>
+  
+</body>
+</html>
