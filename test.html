@@ -1,50 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>Personality Test</title>
-    <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset=utf-8 />
   <link rel="stylesheet" type="text/css" href="FYPCSS.css">
-  <script src="aboutJS.js"></script>
-  <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <script src="FYPJS.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet">
 </head>
-<body>
+<body onload="fbshare()">
+<script>
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/all.js";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
 
+// async init once loading is done
+window.fbAsyncInit = function() {
+  FB.init({appId: 398517573663675, status: false});
+};
+</script>
 
-<div class="container">
-<div>
-  <h3 class="text-primary" style="font-family:verdana"><u><b><mark>E</mark>xtraverted i<mark>N</mark>tuitive <mark>F</mark>eeling <mark>J</mark>udging</b></u></h3>          
-</div>
-  <div class="row">
-  <div>
-    <div id="content-display" class="center-block"> 
-	<h4>Summary</h4>
-      <p>Warm, empathetic, responsive, and responsible. Highly attuned to the emotions, needs, and motivations of others. <br>
-	  Find potential in everyone, want to help others fulfill their potential. May act as catalysts for individual and group growth.<br> 
-	  Loyal, responsive to praise and criticism.Sociable, facilitate others in a group, and provide inspiring leadership.</p>
-    </div>
-    <div class="center-block"> 
-
-    <div class="item">
-      <img src="celebpics/ENFJ-pic.jpg">
-    </div>
-
-    <div class="center-block" style="width:200px;padding-top:10px;" ng-controller="HeaderController">
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#" onclick="window.location='ENFJ-page.html'" data-toggle="tab">Summary</a></li>
-        <li><a href="#" onclick="SW()"  data-toggle="tab">Strenghts & Weaknesses</a></li>
-        <li><a href="#" onclick="CP()" data-toggle="tab">Career Paths</a></li>
-        <li><a href="#"  data-toggle="tab">Emotions</a></li>
-		<li><a href="#"  data-toggle="tab">Emotions</a></li>
-		<li><a href="index.html" >Home</a></li>
-      </ul>
-    </div>
-    <div class="clearfix visible-lg"></div>
-  </div>
-</div>
+<script>
+function fbshare() {
+  FB.ui({
+    method: 'feed',
+    link: 'http://danu6.it.nuigalway.ie/daraghG06/index.html',
+    picture: 'http://danu6.it.nuigalway.ie/daraghG06/logo.jpg',
+    name: 'Pesonality!',
+    caption: 'Test',
+    description: 'Must read daily!'
+  });
+}
+</script>
+  
 </body>
 </html>

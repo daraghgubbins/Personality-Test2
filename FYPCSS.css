@@ -5,8 +5,12 @@ body {
 		margin-top:20px;
 }
 .infobuttons button{
-		margin-top:40px;
 		margin-top:20px;
+		margin-left:-160px;
+}
+.share-buttons{
+		margin-top:-30px;
+		margin-right:-85px;
 }
 
 .text-primary mark { 
@@ -57,4 +61,13 @@ border: 1px solid gray;
 text-align: center;
 padding: 6px;
 margin: 0 auto;
+}
+
+ul.share-buttons{
+  list-style: none;
+  padding: 0;
+}
+
+ul.share-buttons li{
+  display: inline;
 }

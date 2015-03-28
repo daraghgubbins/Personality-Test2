@@ -1,16 +1,15 @@
 function SWISFJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Tolerant</strong>- ENFJ's are true team players, they listen to others " +
-	" opinions even when they contradict their own.</p> <p><strong>Reliable</strong>- ENFJ's never like to let people down and they can always " +
-	"be counted on to see things through.</p><p><strong>Charismatic</strong>- Charm and popularity are qualities ENFJs have in abundance " +
-	"ENFJs are able to shift their tone and manner to reflect the needs of the audience.</p>" +
-	"<h4>Weaknesses</h4><p><strong>Too Sensitive</strong>- It is easy for ENFJ's to take criticism to heart. They may sometimes " +
-	" feel problems that are no their own.</p> <p><strong>Struggle to Make Tough Decisions</strong>- They may struggle to make hard decisions " +
-	"especially when these decisions may affect others.</p></div>";
+	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Hard working</strong>- An ISFJ will excell in many tasks they are assigned." +
+	" They put alot of effort to ensure the best finished product.</p> <p><strong>Patient</strong>- ISFJ's do not rush work they prefer to take time " +
+	"and be maticulous with work.</p>" +
+	"<h4>Weaknesses</h4><p><strong>Too Sensitive</strong>- ISFJ's often take criticism to heart and take it as a personal insult. " +
+	" Criticism often results in conflict.</p> <p><strong>Take on too much</strong>- ISFJ's often overload themselves with work. An ISFJ tries to meet " +
+	"everyones expectations disregarding their own health.</p></div>";
 }
 function CPISFJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p></p></div>";
+	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p>&#149; Human Resources &#149; Nurses &#149; Teachers &#149; Assistants &#149; Volunteering</p></div>";
 }
 
 var newsrcISFJ = "ISFJ-pic2.jpg";
@@ -30,17 +29,18 @@ function changeImageISFJ() {
 
 function SWISFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Tolerant</strong>- ENFJ's are true team players, they listen to others " +
-	" opinions even when they contradict their own.</p> <p><strong>Reliable</strong>- ENFJ's never like to let people down and they can always " +
-	"be counted on to see things through.</p><p><strong>Charismatic</strong>- Charm and popularity are qualities ENFJs have in abundance " +
-	"ENFJs are able to shift their tone and manner to reflect the needs of the audience.</p>" +
-	"<h4>Weaknesses</h4><p><strong>Too Sensitive</strong>- It is easy for ENFJ's to take criticism to heart. They may sometimes " +
-	" feel problems that are no their own.</p> <p><strong>Struggle to Make Tough Decisions</strong>- They may struggle to make hard decisions " +
-	"especially when these decisions may affect others.</p></div>";
+	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Kindness</strong>- ISFP's easily relate to others emotions helping" +
+	" them where possible and offering support for all situations.</p> <p><strong>Experimental</strong>- Very curious people who like to explore " +
+	"new possibilities. ISFP's are open to new ideas and beliefs.</p>" +
+	"<h4>Weaknesses</h4><p><strong>Shyness</strong>- ISFP's are incredibly shy and will try to be alone and independant as much as possible.</p> " +
+	"<p><strong>Low self-esteem</strong>- ISFP's do not like to push their beliefs onto others and their efforts are often dismissed " +
+	"</p></div>";
 }
 function CPISFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p></p></div>";
+	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p>&#149; Musicians &#149; Artists &#149; Photographer &#149; Web Designer &#149; Event Organiser</p>"+
+	"<p>Creative freedom attracts ISFP's, they must be able to express themselves through their work. A career which involves experimenting is what an ISFP"+
+	"would be most passionate about</p></div>";
 }
 
 var newsrcISFP = "ISFP-pic2.jpg";
@@ -60,17 +60,18 @@ function changeImageISFP() {
 
 function SWISTJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Tolerant</strong>- ENFJ's are true team players, they listen to others " +
-	" opinions even when they contradict their own.</p> <p><strong>Reliable</strong>- ENFJ's never like to let people down and they can always " +
-	"be counted on to see things through.</p><p><strong>Charismatic</strong>- Charm and popularity are qualities ENFJs have in abundance " +
-	"ENFJs are able to shift their tone and manner to reflect the needs of the audience.</p>" +
-	"<h4>Weaknesses</h4><p><strong>Too Sensitive</strong>- It is easy for ENFJ's to take criticism to heart. They may sometimes " +
-	" feel problems that are no their own.</p> <p><strong>Struggle to Make Tough Decisions</strong>- They may struggle to make hard decisions " +
-	"especially when these decisions may affect others.</p></div>";
+	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Honest</strong>- ISTJ's are very direct, an ISTJ will tell the " +
+	" truth with little consideration of emotions.</p> <p><strong>Responsible</strong>- An ISTJ will never go back on their word, if " +
+	"they promise something they will do everything to keep their promise.</p>" +
+	"<h4>Weaknesses</h4><p><strong>Non emotional</strong>- ISTJ's hold little regard for others emotions. An ISTJ will say whats on their " +
+	" mind without a second thought.</p> <p><strong>Overly strong willed</strong>- Very stubborn, an ISTJ takes facts and refuses to believe" +
+	"or entertain any other ideas.</p></div>";
 }
 function CPISTJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p></p></div>";
+	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p>&#149; Police Officer &#149; Lawyer &#149; Judge &#149; Security Guard &#149; Detective &#149; Consultant</p>"+
+	"<p>ISTJ's are attracted to any career that appears to be stable and dependable." +
+	" Careers in authority, security and law appeal to ISTJ's as they offer the stability they desire.</p></div>";
 }
 
 var newsrcISTJ = "ISTJ-pic2.jpg";
