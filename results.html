@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Personality Test</title>
+  <link rel="stylesheet" type="text/css" href="FYPCSS.css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+	
+<body onload="getRes()">
+		<script> function getRes(){
+	var request = $.ajax({
+		type:"GET",
+		url:"http://danu6.it.nuigalway.ie/daraghG06/Personality-Test2/Select.php",
+		
+		success : function (results){
+			var row="";
+			if (results==""){
+				alert("nothing")
+			}
+			
+			else{
+				var res = results.split("=>");
+				document.getElementById("table1").innerHTML+=("<thead>"+
+										  '<tr>'+
+											'<th>Name</th>'+
+											'<th class="text-right">Type</th>'+
+										  '</tr>'+
+										'</thead> ');
+				for(var i=0;i<res.length;i++){
+					if(res[i]!=""){
+						row = JSON.parse(res[i]);
+						var name = row.name;
+						var type = row.type;
+						
+						document.getElementById("table1").innerHTML+=('<tbody>'+
+					'<tr class="success"><td class="text-left">'+name+'</td><td class="text-right">'+type+'</td></tr></tbody>');
+					}
+					else{
+						
+					}
+				}
+			}
+		},
+		error: function (error){
+			alert(error);
+		}
+		});
+		}
+	</script>
+	
+<div>
+  <h1 class="text-primary" style="font-family:verdana"><b>Test Results</b></h1>          
+</div>    
+   
+  <table id='table1' class="table"></table>
+<button type="button" id="home2" class="btn btn-info btn-md" onclick="location.href='index.html'">Home</button>
+
+</body>
+</html>

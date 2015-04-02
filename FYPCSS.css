@@ -7,10 +7,15 @@ body {
 .infobuttons button{
 		margin-top:20px;
 		margin-left:-160px;
+		
+}
+
+.infobuttons2 button{
+		margin-top:-55px;
+		margin-left:170px;
 }
 .share-buttons{
-		margin-top:-30px;
-		margin-right:-85px;
+		margin-top:-10px;
 }
 
 .text-primary mark { 
@@ -49,6 +54,11 @@ div .row{
     background: #eeeeee;
 }
 
+.row1 #savebtn{
+	margin-right:5px;
+	margin-top:5px;
+}
+
 #overlay{
 position: relative;
 background: grey;
@@ -70,4 +80,13 @@ ul.share-buttons{
 
 ul.share-buttons li{
   display: inline;
+}
+
+table#table1{
+	width:75%;
+	margin:auto;
+	
+}
+button#home2{
+margin-top:10px;
 }

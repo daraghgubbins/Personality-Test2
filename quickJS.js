@@ -206,14 +206,47 @@ function GetResultsJorP(){
 		result.push("P");
 	}
 }
+
+var results="";
 function GetResults(){
 	finalScore=finalScore+score;
 	GetResultsJorP();
-	var results="";
+	
 	
 	for(i= result.length-1; i>=0;i--){
     results=result[i]+results; 
 	}
-	
-	window.location.href=(""+results+"-page.html");
+saveResults();
 }
+
+	function saveResults(){
+	var x = document.getElementById("buttons");
+	x.innerHTML = "<h2>Save Result "+results+"</h2>" +
+	  '<div class="row1">'+
+    '<div class="col-md-12 col-sm-12 col-xs-12">'+
+     ' <div class="panel panel-default">'+
+      '  <div class="panel-heading clearfix">'+
+       '   <i class="icon-calendar"></i>'+
+        '  <h3 class="panel-title">Inline Form</h3>'+
+        '</div>'+
+        '<div class="panel-body">'+
+         ' <form class="form-inline" role="form" method="post" action="http://danu6.it.nuigalway.ie/daraghG06/Personality-Test2/varinout.php">'+
+          '  <div class="form-group">'+
+           '   <label class="sr-only">Name</label>'+
+            '  <input type="text" class="form-control" name="Name" placeholder="Name">'+
+            '</div>'+
+            '<div class="form-group">'+
+             ' <label class="sr-only">Password</label>'+
+              '<input type="text" class="form-control" id="results1" name="results" value="'+results+'">'+
+            '</div>'+
+			'<button id="savebtn" type="submit" class="btn btn-info">Save</button>'+
+          '</form>'+
+		  '<button  id="savebtn" class="btn btn-info"onclick="resultpage()">Continue to Results</button>'+
+        '</div>'+
+      '</div>'+
+    '</div>'+
+  '</div>';
+	}
+	function resultpage(){
+		window.location.href=(""+results+"-page.html");
+		}
