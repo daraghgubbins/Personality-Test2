@@ -28,42 +28,34 @@ function toggleOverlay(){
 
 function Store1(int){
 section1=int;
-alert(section1);
 }
 
 function Store2(int){
 section2=int;
-alert(section2);
 }
 
 function Store3(int){
 section3=int;
-alert(section3);
 }
 
 function Store4(int){
 section4=int;
-alert(section4);
 }
 
 function Store5(int){
 section5=int;
-alert(section5);
 }
 
 function Store6(int){
 section6=int;
-alert(section6);
 }
 
 function Store7(int){
 section7=int;
-alert(section7);
 }
 
 function Store8(int){
 section8=int;
-alert(section8);
 }
 
 function addScore(){
@@ -110,7 +102,6 @@ function JorP(){
 		else if (total < 0){
 		result.push("P");
 	}
-	alert(result);
 	GetResults2();
 }
 	var results2="";
@@ -132,7 +123,8 @@ function reset(){
 
 	function saveResults2(){
 	var x = document.getElementById("section");
-	x.innerHTML = "<h2>Save Result "+results2+"</h2>" +
+	x.innerHTML = '<div><h1 class="text-primary" style="font-family:verdana"><b>Personality Type Indicator</b></h1></div>'+
+	'<div id="image"><img src="brain2.png" alt="Brain" style="width:304px;height:228px"></div><h2>Save Result '+results2+'</h2>' +
 	  '<div class="row1">'+
     '<div class="col-md-12 col-sm-12 col-xs-12">'+
      ' <div class="panel panel-default">'+
@@ -178,11 +170,11 @@ function page2(){
 		'<div class="row">'+
 		'	<div><strong>You often contemplate lifes complexities</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -190,11 +182,11 @@ function page2(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-1)">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-2)">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -366,11 +358,11 @@ function page2(){
 		'<div id="section1" class="row">'+
 		'	<div><strong>You enjoy experimenting to see what happens</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(3)">'+
+							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
+							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(1)">'+
+							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -378,11 +370,11 @@ function page2(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-1)">'+
+							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
+							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-3)">'+
+							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -413,11 +405,11 @@ function page3(){
 		'<div id="section1" class="row">'+
 		'	<div><strong>You are willing to engage with your emotions</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -425,11 +417,11 @@ function page3(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-1)">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-2)">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -601,11 +593,11 @@ function page3(){
 		'<div id="section1" class="row">'+
 		'	<div><strong>You easily understand others concerns</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(3)">'+
+							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
+							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(1)">'+
+							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -613,11 +605,11 @@ function page3(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-1)">'+
+							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
+							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-3)">'+
+							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -648,11 +640,11 @@ function page4(){
 		'<div id="section1" class="row">'+
 		'	<div><strong>You are almost never late for appointments</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-2)">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-1);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(-1)">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -660,11 +652,11 @@ function page4(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(1)">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(2)">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
+							'<button class="btn" onclick="Store1(3)">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
@@ -836,11 +828,11 @@ function page4(){
 		'<div id="section1" class="row">'+
 		'	<div><strong>You often rush jobs</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(3)">'+
+							'<button class="btn" onclick="Store1(3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
-							'<button class="btn" onclick="Store1(2)">'+
+							'<button class="btn" onclick="Store1(2);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(1)">'+
+							'<button class="btn" onclick="Store1(1);checkExtensive()">'+
 							'<i class="fa fa-thumbs-down fa-lg" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Disagree</b></h5>          '+
@@ -848,11 +840,11 @@ function page4(){
 			'</div> '+
 			
 			'<div class="col-sm-6 col-xs-6">'+
-							'<button class="btn" onclick="Store1(-1)">'+
+							'<button class="btn" onclick="Store1(-1;checkExtensive())">'+
 							'<i class="fa fa-thumbs-up fa-lg"></i></button>'+
-							'<button class="btn" onclick="Store1(-2)">'+
+							'<button class="btn" onclick="Store1(-2);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-2x" id="q2"></i></button>'+
-							'<button class="btn" onclick="Store1(-3)">'+
+							'<button class="btn" onclick="Store1(-3);checkExtensive()">'+
 							'<i class="fa fa-thumbs-up fa-3x" id="q2"></i></button>'+
 							'<div>'+
 							'	<h5 class="text-primary" style="font-family:verdana"><b>Agree</b></h5>   '+       
