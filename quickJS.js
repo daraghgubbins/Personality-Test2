@@ -227,7 +227,7 @@ saveResults();
      ' <div class="panel panel-default">'+
       '  <div class="panel-heading clearfix">'+
        '   <i class="icon-calendar"></i>'+
-        '  <h3 class="panel-title">Inline Form</h3>'+
+        '  <h3 class="panel-title">Save Results</h3>'+
         '</div>'+
         '<div class="panel-body">'+
          ' <form class="form-inline" role="form" method="post" action="http://danu6.it.nuigalway.ie/daraghG06/Personality-Test2/varinout.php">'+
