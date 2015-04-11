@@ -126,7 +126,7 @@ function SWINTJ(){
 	" next move to better themselves. They take every opportunity to learn.</p> <p><strong>Determined</strong>- INTJ's become dedicated to work when it is " +
 	"of a particular interest to them. They are very efficient in all tasks.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Arrogant</strong>- INTJ's are very confident in their own knowledge but sometimes they may come across arrogant and " +
-	"believe others to be intellectually inferior.</p> <p><strong>Judgemental</strong>- Dimiss the ideas of others as they have complete confidence in their " +
+	"believe others to be intellectually inferior.</p> <p><strong>Judgemental</strong>- Dismiss the ideas of others as they have complete confidence in their " +
 	"own mind.</p></div>";
 }
 function CPINTJ(){
@@ -427,7 +427,7 @@ function SWENFP(){
 }
 function CPENFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p>&#149; Human Science &#149; Psychology &#149; Polotics" +
+	x.innerHTML="<div class='center-block'><h4>Career Path</h4><p>&#149; Human Science &#149; Psychology &#149; Politics" +
 	"&#149; Detectives &#149; Teaching</p>"+
 	"<p>ENFP's have a passion for new ideas and exploring the unknown. An ENFP can become overwhelmed with the amount of careers that are of interest to them. "+
 	"ENFP's do not work well under restrictions and prefer to question the rules and explore the alternatives.</p></div>";

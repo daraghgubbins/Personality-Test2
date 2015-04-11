@@ -456,7 +456,7 @@ function page3(){
 		'</div>'+
 
 		'<div id="section1" class="row">'+
-		'	<div><strong>Thinking lociacally is what matters most</strong></div>'+
+		'	<div><strong>Thinking logically is what matters most</strong></div>'+
 		'	<div class="col-sm-6 col-xs-6">'+
 							'<button class="btn" onclick="Store1(-3)">'+
 							'<i class="fa fa-thumbs-down fa-3x"></i></button>'+
