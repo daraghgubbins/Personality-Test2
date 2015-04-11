@@ -21,7 +21,7 @@ function QuestionTwo(){
 	finalScore=score;
 	var x = document.getElementById("buttons");
 	x.innerHTML = "<h2>Question 2:</h2>" +
-	'<div align="center" class="container"> <div class="progress" style="width:300px" > '+
+	'<div align="center" class="container"> <div class="progress" style="width:300px" >  	'+
     '<div  class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="100" style="width:8%">' +
     '8%</div></div>'+
 	"</div><p><strong>How do you prefer to solve a problem?</strong></p><form role='form'> <div class='radio'>" +

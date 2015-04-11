@@ -59,7 +59,8 @@ section8=int;
 }
 
 function addScore(){
-finalScore.push(section1,section2,section3,section4,section5,section6,section7,section8);
+finalScore.push(section1,section2,section3,
+section4,section5,section6,section7,section8);
 $.each(finalScore,function() {
     total += this;
 });
@@ -116,7 +117,8 @@ function GetResults2(){
 }
 
 function reset(){
-	section1=0,section2=0,section3=0,section4=0,section5=0,section6=0,section7=0,section8=0;
+	section1=0,section2=0,section3=0,section4=0,
+	section5=0,section6=0,section7=0,section8=0;
 	total = 0;
 	finalScore=[];
 }
