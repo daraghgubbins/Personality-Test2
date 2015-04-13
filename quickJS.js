@@ -219,6 +219,10 @@ function GetResults(){
 saveResults();
 }
 
+function alertAdd1(){
+alert("Record saved successfully");
+}
+
 	function saveResults(){
 	var x = document.getElementById("buttons");
 	x.innerHTML = "<h2>Save Result "+results+"</h2>" +
@@ -239,7 +243,7 @@ saveResults();
              ' <label class="sr-only">Password</label>'+
               '<input type="text" class="form-control" id="results1" name="results" value="'+results+'" readonly=""/>'+
             '</div>'+
-			'<button id="savebtn" type="submit" class="btn btn-info">Save</button>'+
+			'<button id="savebtn" type="submit" onclick="alertAdd1()" class="btn btn-info">Save</button>'+
           '</form>'+
 		  '<button  id="resultsbtn" class="btn btn-info"onclick="resultpage()">Continue to Results</button>'+
         '</div>'+

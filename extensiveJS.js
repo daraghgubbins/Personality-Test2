@@ -381,6 +381,10 @@ function reset(){
 	finalScore=[];
 }
 
+function alertAdd(){
+alert("Record saved successfully");
+}
+
 	function saveResults2(){
 	var x = document.getElementById("section");
 	x.innerHTML = '<div><h1 class="text-primary" style="font-family:verdana"><b>Personality Type Indicator</b></h1></div>'+
@@ -402,7 +406,7 @@ function reset(){
              ' <label class="sr-only">Password</label>'+
               '<input type="text" class="form-control" id="results1" name="results" value="'+results2+'" readonly=""/>'+
             '</div>'+
-			'<button id="savebtn" type="submit" class="btn btn-info">Save</button>'+
+			'<button id="savebtn" type="submit" onclick="alertAdd()" class="btn btn-info">Save</button>'+
           '</form>'+
 		  '<button  id="savebtn" class="btn btn-info"onclick="resultpage2()">Continue to Results</button>'+
         '</div>'+
