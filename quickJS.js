@@ -237,11 +237,11 @@ saveResults();
             '</div>'+
             '<div class="form-group">'+
              ' <label class="sr-only">Password</label>'+
-              '<input type="text" class="form-control" id="results1" name="results" value="'+results+'">'+
+              '<input type="text" class="form-control" id="results1" name="results" value="'+results+'" readonly=""/>'+
             '</div>'+
 			'<button id="savebtn" type="submit" class="btn btn-info">Save</button>'+
           '</form>'+
-		  '<button  id="savebtn" class="btn btn-info"onclick="resultpage()">Continue to Results</button>'+
+		  '<button  id="resultsbtn" class="btn btn-info"onclick="resultpage()">Continue to Results</button>'+
         '</div>'+
       '</div>'+
     '</div>'+
