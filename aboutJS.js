@@ -1,6 +1,6 @@
 function SWISFJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Hard working</strong>- An ISFJ will excell in many tasks they are assigned." +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Hard working</strong>- An ISFJ will excell in many tasks they are assigned." +
 	" They put alot of effort to ensure the best finished product.</p> <p><strong>Patient</strong>- ISFJ's do not rush work they prefer to take time " +
 	"and be maticulous with work.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Too Sensitive</strong>- ISFJ's often take criticism to heart and take it as a personal insult. " +
@@ -30,7 +30,7 @@ function changeImageISFJ() {
 
 function SWISFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Kindness</strong>- ISFP's easily relate to others emotions helping " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Kindness</strong>- ISFP's easily relate to others emotions helping " +
 	" them where possible and offering support for all situations.</p> <p><strong>Experimental</strong>- Very curious people who like to explore " +
 	"new possibilities. ISFP's are open to new ideas and beliefs.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Shyness</strong>- ISFP's are incredibly shy and will try to be alone and independant as much as possible.</p> " +
@@ -61,7 +61,7 @@ function changeImageISFP() {
 
 function SWISTJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Honest</strong>- ISTJ's are very direct, an ISTJ will tell the " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Honest</strong>- ISTJ's are very direct, an ISTJ will tell the " +
 	" truth with little consideration of emotions.</p> <p><strong>Responsible</strong>- An ISTJ will never go back on their word, if " +
 	"they promise something they will do everything to keep their promise.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Non emotional</strong>- ISTJ's hold little regard for others emotions. An ISTJ will say whats on their " +
@@ -92,7 +92,7 @@ function changeImageISTJ() {
 
 function SWISTP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Creative</strong>- Love to explore the possibilities of improving " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Creative</strong>- Love to explore the possibilities of improving " +
 	" everyday objects. ISTP's like to build new things with their own hands.</p> <p><strong>Calm</strong>- ISTP's are relaxed in most situations, they like " +
 	"to go with the flow and don't worry about future problems.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Non-Compassionate</strong>- ISTP's are very logical people and can come across insensitive. It is hard for a " +
@@ -122,7 +122,7 @@ function changeImageISTP() {
 
 function SWINTJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Strategic</strong>- INTJ's almost see life as a chess board looking for the best " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Strategic</strong>- INTJ's almost see life as a chess board looking for the best " +
 	" next move to better themselves. They take every opportunity to learn.</p> <p><strong>Determined</strong>- INTJ's become dedicated to work when it is " +
 	"of a particular interest to them. They are very efficient in all tasks.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Arrogant</strong>- INTJ's are very confident in their own knowledge but sometimes they may come across arrogant and " +
@@ -154,7 +154,7 @@ function changeImageINTJ() {
 
 function SWINFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Idealistic</strong>- INFP's believe that everyone has the potential to be " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Idealistic</strong>- INFP's believe that everyone has the potential to be " +
 	"great even when others do not believe.</p> <p><strong>Laid Back</strong>- INFP's have an open mind and dislike being restricted by rules. " +
 	"They believe that everyone has the right to do what they think is right.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Too Shy</strong>- INFP's are hard to understand and have a strong friendship with. They are private and reserved in nature. " +
@@ -186,7 +186,7 @@ function changeImageINFP() {
 
 function SWINFJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Convincing</strong>- An INFJ often demonstrates some characteristics " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Convincing</strong>- An INFJ often demonstrates some characteristics " +
 	"of the extraverted preference. INFJ's speak with confidence and fluidity when speaking about something important to them.</p>" +
 	"<p><strong>Motivated</strong>- An INFJ will pursue a goal to great lenghts and with great energy if it is important enough. " +
 	"<h4>Weaknesses</h4><p><strong>Perfectionist</strong>- An INFJ is very motivated and gets a job done well, but they also have a love for an ideal " +
@@ -218,7 +218,7 @@ function changeImageINFJ() {
 
 function SWINTP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Inventive</strong>- Many world renouned inventors have the INTP preference. " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Inventive</strong>- Many world renouned inventors have the INTP preference. " +
 	"This is due to their way of thinking and open mindedness. INTP's are excellent at analysing and dicvering patterns.</p>"+
 	"<p><strong>Straighforward</strong>- INTP's often hurt the feelings of others by being too honest and showing no compassion. " +
 	"They believe that truth is the most important factor and this may be the reason for them being soo successful.</p>" +
@@ -252,7 +252,7 @@ function changeImageINTP() {
 
 function SWESFJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Social Skills</strong>- ESFJ's are well-liked people and have no " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Social Skills</strong>- ESFJ's are well-liked people and have no " +
 	"problem taking up active roles in their communities to expand their network of friends.</p> <p><strong>Responsible</strong>- ESFJ's strive to meet their " +
 	"obligations and have a strong sense of responsibility. ESFJ's can be relied upon when trusted with a task.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Vain</strong>- It is not unusual for an ESFJ to be excessively worried about their appearence and social status. " +
@@ -284,7 +284,7 @@ function changeImageESFJ() {
 
 function SWESFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>People Skills</strong>- ESFP's are vibrant people who love to put on " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>People Skills</strong>- ESFP's are vibrant people who love to put on " +
 	"a show. Very talkative in nature and known exactly how to make a person smile. A real people person.</p>"+
 	"<p><strong>Entertaining</strong>- The ESFP personality type is often seen in professions such as acting and performing. An ESFP is willing " +
 	"to step out of their comfort zone for the entertainment of others.</p>" +
@@ -317,7 +317,7 @@ function changeImageESFP() {
 
 function SWESTJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Organised</strong>- ESTJ's work well in large groups and know how to " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Organised</strong>- ESTJ's work well in large groups and know how to " +
 	"maximize productivity by organising people and also their own tasks, this is what makes them excellent administrators.</p>"+
 	"<p><strong>Dedicated</strong>- ESTJ's have a need to complete a task once started. Tasks are never abandoned when they become difficult, instead this " +
 	"becomes more the reason to complete the task.</p>" +
@@ -351,7 +351,7 @@ function changeImageESTJ() {
 
 function SWESTP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Experimental</strong>- ESTP's have a passion for experimenting with new ideas and " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Experimental</strong>- ESTP's have a passion for experimenting with new ideas and " +
 	"solutions. ESTP's see possibilities for improvement unlike many others.</p> <p><strong>Sociable</strong>- Being original and direct makes an ESTP a " +
 	"natural leader. Their personality makes them very approachable and sociable but at the same time an ESTP has a need to be respected.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Rash</strong>- ESTP's are big risk takers and sometimes this quality can be of benefit but an ESTP will often gamble " +
@@ -384,7 +384,7 @@ function changeImageESTP() {
 
 function SWENFJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Tolerant</strong>- ENFJ's are true team players, they listen to others " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Tolerant</strong>- ENFJ's are true team players, they listen to others " +
 	" opinions even when they contradict their own.</p> <p><strong>Reliable</strong>- ENFJ's never like to let people down and they can always " +
 	"be counted on to see things through.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Too Sensitive</strong>- It is easy for ENFJ's to take criticism to heart. They may sometimes " +
@@ -418,7 +418,7 @@ function changeImageENFJ() {
 
 function SWENFP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Imaginative</strong>- ENFP's are very enthusiastic about new ideas they may have " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Imaginative</strong>- ENFP's are very enthusiastic about new ideas they may have " +
 	"and will share them with anyone willing to listen.</p> <p><strong>Communication Skills</strong>- ENFP's are very scoiable individuals and have " +
 	"strong people skills. ENFP's have an ability of talking someone into their way of thinking and steer a conversation towards their desired subjects.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Stress</strong>- Stress can get to an ESFP, as ESFP's often overthink they can get stressed at all the possibilities " +
@@ -450,7 +450,7 @@ function changeImageENFP() {
 
 function SWENTJ(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Logical Thinkers</strong>- ENTJ's have the ability to examine a problem from evry angle " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Logical Thinkers</strong>- ENTJ's have the ability to examine a problem from evry angle " +
 	"and come up with a solution that keeps the project moving forward.</p> <p><strong>Confident</strong>- ENTJ's beleive in their own abilitiesand have " +
 	"faith in their own decisions, this makes them excellent leaders.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Arrogant</strong>- This self confidence can sometimes come across as arrogence. As ENTJ's are very quick with their " +
@@ -482,7 +482,7 @@ function changeImageENTJ() {
 
 function SWENTP(){
 	var x = document.getElementById("content-display");
-	x.innerHTML="<div class='center-block'><h4>Strenghts</h4><p><strong>Brainstormers</strong>- ENTP's have a great ability to change from idea to " +
+	x.innerHTML="<div class='center-block'><h4>strengths</h4><p><strong>Brainstormers</strong>- ENTP's have a great ability to change from idea to " +
 	"idea without any mental strain. This is due to their flexible minds</p> <p><strong>Knowledgeable</strong>- ENTP's have great minds and a love for " +
 	"new information, never passing up the chance to learn something new.</p>" +
 	"<h4>Weaknesses</h4><p><strong>Arguementative</strong>- ENTP's love a good debate and never hold back to spare someones feelings. Being very" +
